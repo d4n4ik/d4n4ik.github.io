@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+<script src="js/main.js"></script>
+
+
+<!-- Header -->
+<header id="header" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+        <a id="kirov" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%80%D0%BE%D0%B2_(%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C)"><img id="area" src=img/area.png></a>
+        <h1>Kirov is in my heart</h1>
+    </div>
+</header>
+
+
+<!-- Nav -->
+<nav id="nav" class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navigation of site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Main page</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Task</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Map.html">Map</a>
+                    <a class="dropdown-item" href="Contact.html">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<!-- Main info -->
+<div id="main">
+    <h3 class="text-center">Задание</h3>
+    <div id="task" class="py-2 text-black text-center">
+        <table class="table table-dark" style="text-align: left">
+            <thead>
+            <tr>
+                <th scope="col">Номер</th>
+                <th scope="col">Описание</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Задание 1</th>
+                <td>Сверстать страницу из блоков по макету</td>
+            </tr>
+            <tr>
+                <th scope="row">Задание 2</th>
+                <td>Задать CSS-селекторы к уже имеющемуся HTML-файлу</td>
+            </tr>
+            <tr>
+                <th scope="row">Задание 3</th>
+                <td>Практика JavaScript: работа с DOM, изучение синтаксиса</td>
+            </tr>
+            <tr>
+                <th scope="row">Задание 4</th>
+                <td>
+                    Практика JavaScript: создание формы, параметры которой задают количество строк и столбцов
+                    таблицы. Работа с таблицей через панель функций.
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Задание 5</th>
+                <td>
+                    Работа с библиотекой jQuery: создание и изменение DOM-элементов. Получение контента через запрос и
+                    его отрисовка на странице. Получение и обработка JSON-документа и представление его в форме
+                    ненумерованного списка
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Задание 6</th>
+                <td>
+                    Изучение Bootstrap: создание и оформление нескольких страниц. Доработка 2 задания по
+                    JavaScript
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+<footer id="footer" class="py-2 bg-dark text-white-50">
+    <div class="container text-center">
+        Ярыгин Данил ®
+        <br>
+        <a id="itmo" href="https://itmo.ru/ru/">Университет ИТМО</a>
+        <br>
+        2020
+    </div>
+</footer>
+</body>
+</html>
