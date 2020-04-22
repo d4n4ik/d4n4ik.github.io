@@ -31,7 +31,7 @@ $(document).ready(function(){
     // $("#itmo, #kirov, #vk").attr("target", "_blank");
     $("#itmo").css({
         "text-decoration": "none",
-        "color": "aquamarine"
+        "color": "white"
     });
 
     $("#map").css("width", "100%");
